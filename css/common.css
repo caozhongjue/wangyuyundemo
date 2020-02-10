@@ -1,0 +1,233 @@
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.head-nav{
+    position: relative;
+    background-color: #d33a32;
+    height: 1rem;
+    line-height: 1rem;
+}
+.head-nav-left{
+    position: absolute;
+    left: .2rem;
+    top: 0rem;
+ 
+}
+.head-nav-right{
+    position: absolute;
+    right: .2rem;
+    top: 0rem;
+  
+}
+.head-nav-middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1.5rem;
+   
+}
+.myiconfont{
+    font-size: .6rem;
+    color: #e48a82;
+    vertical-align: top;
+}
+.head-nav-active{
+    color: #ffffff;
+}
+.body-nav{
+    height: .82rem;
+    line-height: .82rem;
+}
+.body-nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.body-nav ul li{
+    float: left;
+    font-size: .4rem;
+}
+.body-nav-active{
+    color: red;
+    border-bottom: 1px solid red;
+}
+.body-banner{
+    position: relative;
+}
+.body-banner-container{
+    overflow: hidden;
+}
+.body-banner-container-img{
+   margin: 0 auto;
+}
+.body-banner-container-img img{
+    width: 100%;
+    height: 100%;
+}
+.body-banner-dot{
+    width: 100%;
+    position: absolute;
+    bottom: 0.2rem;
+}
+.body-banner-dot-container{
+    text-align: center;
+    height: .2rem;
+    width: 1.2rem;
+    line-height: .2rem;
+    margin-left: -1rem;
+    margin: 0 auto;
+}
+a.body-banner-active{
+    background-color: red;
+}
+.dot{
+    display: block;
+    width: .1rem;
+    height: .1rem;
+    background-color: #ffffff;
+    margin-right: .1rem;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+}
+.sort-nav{
+    width: 100%;
+    height: 1.4rem;
+    border-bottom: .02rem solid #dbdcde;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: .2rem;
+}
+.sort-nav-col{
+    text-align: center;
+}
+.sort-nav-col-icon{
+    width:.8rem;
+    height: .8rem;
+    border-radius: 50%;
+    border: 1px solid red;
+    text-align: center;
+    line-height: .8rem;
+    margin-bottom: .1rem;
+}
+.sort-nav-col-icon-myicon{
+    color: red;
+    font-size: .4rem;
+}
+.song-list{
+    padding-top: .6rem;
+}
+.song-list-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: .4rem;
+}
+.song-list-title-left{
+    display: inline-block;
+    background-color: red;
+    height: .32rem;
+    width: .04rem;
+    margin-right: .1rem;
+}
+.song-list-title-content{
+    font-size: .4rem;
+    margin-right: .1rem;
+}
+
+.song-list-content-detial{
+    width: 33.3%;
+    box-sizing: border-box;
+    padding-left: .03rem;
+    padding-right: .02rem;
+    float:left;
+    margin-bottom: .32rem;
+}
+.song-list-content-img-container{
+    width: 100%;;
+    height: 100%;
+
+}
+.song-list-content-img{
+    width: 100%;
+    height: 100%;
+}
+.song-list-content-title{
+    font-size: .26rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding: 0.12rem 0 .04rem .12rem;
+    height: .66rem;
+    line-height: .35rem;
+}
+.swiper-container{
+    --swiper-theme-color: #ff6600;
+    --swiper-pagination-color: #00ff33;/* 两种都可以 */
+  }
+  .only-list ul li{
+      width:50%;
+      float: left;
+      padding-left: .02rem;
+      padding-right: .02rem;
+      box-sizing: border-box;
+  }
+  .only-list ul li img{
+      width: 100%;
+  }
+  .only-list-title{
+      font-size: .4rem;
+      height: 1rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+  }
+  .only-list-img{
+      height: 4rem;
+      width: 100%;
+  }
+  .song-list-sift ul li:first-child{
+      border-top: .02rem solid #dbdcde;
+  }
+  .song-list-sift ul li {
+     margin-top: .1rem;
+     border-bottom: .02rem solid #dbdcde;
+  }
+  .song-list-sift-left{
+      width: 70%;
+      font-size: .4rem;
+      float: left;
+      
+  }
+  .song-list-sift-left > div{
+      padding: .2rem .2rem;
+      line-height: 1.6;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+ .song-list-sift-icon{
+      border: .02rem solid red;
+      color: red;
+      font-size: .25rem;
+  }
+  .song-list-sift-title{
+      font-size: .4rem;
+      
+  }
+  .song-list-sift-read{
+      display: block;
+      padding-left: .2rem;
+      color: #dbdcde;
+      font-size: .35rem;
+  }
+  .song-list-sift-right{
+      width: 30%;
+  }
